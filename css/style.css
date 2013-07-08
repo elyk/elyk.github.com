@@ -1,3 +1,14 @@
+a {
+	text-decoration: none;
+	color: #2E2E2E;
+	font-size: 20px;
+	border-bottom: dotted 1px black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: ;
+}
 body {
 	width: 100%;
 }
@@ -18,4 +29,24 @@ header .nav li {
 	display: inline;
 	margin: 10%;
 	font-size: 24px;
+}
+
+.properties {
+	float: left;
+	text-align: left;
+	list-style-type: none;
+	width: 20%;
+	margin-left: 40%;
+	min-width: 500px;
+	line-height: 2.0;
+}
+
+.properties li {
+	margin: 10px;
+	font-size: 18px;
+}
+.properties li .key {
+	color: #585858;
+	font-size: 12px;
+	font-weight: 100;
 }
